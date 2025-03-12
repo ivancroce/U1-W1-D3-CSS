@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* to center everything */
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+/* img are inline so we make it block */
+header img {
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+
+header p {
+  color: #266462;
+  background-color: #fcf8e5;
+  text-align: center;
+  border-top: 1px solid #ffd877;
+  padding: 10px;
+  font-size: 14px;
+}
+/* main part */
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.focaccia img {
+  border-radius: 2%;
+  width: 100%;
+}
+
+.focaccia p {
+  text-align: center;
+  color: grey;
+}
+
+.feat-in h4 {
+  margin: 0;
+  color: #b84e19;
+}
+
+.feat-in {
+  padding-left: 20px;
+  border-left: 1px solid #ffd877;
+}
