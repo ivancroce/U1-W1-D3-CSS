@@ -1,6 +1,5 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin-inline: auto;
 }
 
 /* to center everything */
@@ -32,6 +31,7 @@ h1 {
 .focaccia img {
   border-radius: 2%;
   width: 100%;
+  box-shadow: 5px 5px 5px #e3e6e9;
 }
 
 .focaccia p {
@@ -39,12 +39,31 @@ h1 {
   color: grey;
 }
 
-.feat-in h4 {
+.feat-in h5 {
   margin: 0;
-  color: #b84e19;
+  color: #db5d1e;
+}
+
+.feat-in a {
+  color: #107777;
 }
 
 .feat-in {
   padding-left: 20px;
   border-left: 1px solid #ffd877;
+}
+
+h3 {
+  border-bottom: 1px solid #c4f3f2;
+  padding: 10px;
+  padding-left: 0px;
+  font-size: 20px;
+}
+
+.ingr-area {
+  line-height: 180%;
+}
+
+.method-area p {
+  padding-left: 40px;
 }
